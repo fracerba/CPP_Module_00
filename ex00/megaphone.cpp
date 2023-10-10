@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	int i = 0;
 	int j = 0;
@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 			{
 				if (argv[i][j] >= 'a' && argv[i][j] <= 'z')
 					std::cout<<(char)(argv[i][j] - 32);
-            	else
+				else
 					std::cout<<argv[i][j];
 				j++;
 			}
