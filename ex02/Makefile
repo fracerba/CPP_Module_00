@@ -1,6 +1,7 @@
 NAME = AccountLog
 
-SRCS = Account.cpp, tests.cpp
+SRCS = Account.cpp \
+		tests.cpp  \
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
